@@ -1,0 +1,112 @@
+/*  _______    (Main Page) _________     */
+body{
+  color: rgb(19, 87, 165);
+}
+a {
+  margin-right: 20px;
+  color: whitesmoke;
+  font-size:x-large;
+}
+
+/*  _______   Page 2  (Hobbies.html) _________     */
+.hobby_images img:hover {
+  zoom: 1.2;
+}
+
+.hobby_images {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hobby_images img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*  _______   Page 3  (Projects) _________     */
+.parent {
+  position: relative;
+  height: 80px;
+}
+
+.left, .middle , .right{
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 1em 3em;
+}
+.left {
+  padding: .5em 3em;
+  top: .5em;
+  left: 2em;
+}
+.middle {
+  top: 0;
+  left: 20em; 
+}
+.right{
+  top: 0;
+  left: 40em; 
+}
+
+/*  _______   Page 5  (countries.html) _________     */
+
+.cntry-disc{
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(81, 147, 224);
+}
+
+.container{
+  width: 70vmin;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  border: 10px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
+}
+
+.wrapper{
+  width: 100%;
+  display: flex;
+  animation: slide 10s infinite;
+}
+
+@keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  55%{
+      transform: translateX(-200%);
+  }
+  75%{
+      transform: translateX(-200%);
+  }
+  80%{
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-300%);
+  }
+}
+
+/*  _______   Page 6  (countries.html) _________     */
+
+
+ul li a {
+  color: rgb(19, 87, 165);
+  font-size: large;
+}
